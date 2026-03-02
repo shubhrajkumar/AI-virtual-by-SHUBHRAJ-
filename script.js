@@ -55,7 +55,7 @@ function takecommand(Message) {
     } else if (Message.includes("who are you")) {
         speak("I am your personal AI assistant, I am created by Shubhraj.");
     } else if (Message.includes("what is your name")) {
-        speak("My name is Shifra, I am here to assist you with your tasks.");
+        speak("My name is Shifra by Shubhraj, I am here to assist you with your tasks.");
     } else if (Message.includes("how are you")) {
         speak("I am just a program, but thank you for asking! How can I help you today?");
     } else if (Message.includes("i love you") || Message.includes("i also love you very much")) {
@@ -117,4 +117,5 @@ function takecommand(Message) {
         speak(finalText);
         window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, "_blank");
     }
+
 }
